@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="client_commands">
+      <UniqueIdentifier>{672dbcd7-559d-4fab-8027-d842e06e93ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Definition.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatCommandFactory.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="UserEntity.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkCommunicator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkData.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatCommandResolver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseChatCommand.h">
+      <Filter>client_commands</Filter>
+    </ClInclude>
+    <ClInclude Include="DisconnectChatCommand.h">
+      <Filter>client_commands</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestOnlineUserChatCommand.h">
+      <Filter>client_commands</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ResponseOnlineUserChatCommand.h">
+      <Filter>client_commands</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestMessageChatCommand.h">
+      <Filter>client_commands</Filter>
+    </ClInclude>
+    <ClInclude Include="ResponseMessageChatCommand.h">
+      <Filter>client_commands</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatCommandFactory.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="UserEntity.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkCommunicator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkData.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatCommandResolver.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseChatCommand.cpp">
+      <Filter>client_commands</Filter>
+    </ClCompile>
+    <ClCompile Include="DisconnectChatCommand.cpp">
+      <Filter>client_commands</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestOnlineUserChatCommand.cpp">
+      <Filter>client_commands</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ResponseOnlineUserChatCommand.cpp">
+      <Filter>client_commands</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestMessageChatCommand.cpp">
+      <Filter>client_commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ResponseMessageChatCommand.cpp">
+      <Filter>client_commands</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
